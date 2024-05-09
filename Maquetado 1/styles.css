@@ -1,0 +1,87 @@
+body {
+    width: 1000px;
+    margin: 0 auto; /* Centra el body horizontalmente */
+    padding: 0; /* Elimina el padding para evitar desbordamientos */
+}
+
+.BOX {
+    background-color: #9ACD32;
+    height: 100px;
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+    align-items: center;
+    border: 5px solid black;
+    padding: 0 10px; /* Agrega padding solo a los lados */
+}
+
+.header {
+    background-color: #0000FF;
+    height: 300px;
+    display: flex;
+    align-items: center;
+   
+    position: relative; /* Posicionamiento relativo para los elementos internos */
+}
+
+.banner {
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid;
+}
+
+.Caja {
+    width: 200px;
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 0; /* Alinea al tope del header */
+    right: 0; /* Alinea a la derecha del header */
+}
+
+.logologinform {
+    width: 190px;
+    height: 90px; /* Altura ajustada para que quepan los tres */
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid;
+}
+
+.main {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Article500px {
+    width: 500px;
+    height: 500px; /* Altura*/
+    border: 5px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    height: 50px;
+    background: orange;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside1 {
+    width: 300px; /* Ancho */
+    height: 500px; /* Altura */
+    background: white;
+    text-align: center;
+    line-height: 500px;
+    border: 5px solid black;
+}
